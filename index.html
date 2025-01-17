@@ -123,12 +123,15 @@
 			document.getElementById('overlay').style.display='none';
 			document.getElementById('info').style.display='none';
 		}
+		function openSite() {
+        window.location.href = 'https://www.google.co.in/';
+    	}
 	</script>
 	<div class="container">
 		<h1>Hello!</h1>
 		<p class="welcome">Welcome to the Search website</p>
 		<p class="suggestion">Search to run your thoughts!</p>
-		<input type="text" placeholder="search">
+		<input type="text" placeholder="search" onclick="openSite()">
 		<p class="privacy">We protect your privacy. <a href="html.html">learn more</a></p>
 	</div>
 </body>
